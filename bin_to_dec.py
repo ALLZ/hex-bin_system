@@ -8,8 +8,8 @@ class BinToDecCommand(sublime_plugin.TextCommand):
         
         bin = v.substr(v.sel()[0])
         l=True
-        for i in xrange(0,len(bin)):
-            if not((bin[i]=='1') or (bin[i]=='0')):
+        for i in bin:
+            if not((i=='1') or (i=='0')):
              l=False
             
         if l:

@@ -5,11 +5,11 @@ class HexToDecCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         v = self.view
 
-        
         hx = v.substr(v.sel()[0])
+        hexdig = '0123456789abcdefABCDEF'
         l=True
-        for i in xrange(0,len(hx)):
-            if not((hx[i] in ('0','1','2','3','4','5','6','7','8','9')) or (hx[i] in ('A','B','C','D','E','F'))):
+        for i in hx:
+            if not(i in hexdig):
              l=False
             
         if l:

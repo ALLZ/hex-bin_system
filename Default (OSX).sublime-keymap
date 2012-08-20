@@ -1,0 +1,6 @@
+[
+	{"keys": ["super+d","super+h"], "command": "dec_to_hex"},	
+	{"keys": ["super+d","super+b"], "command": "dec_to_bin"},
+	{"keys": ["super+b","super+d"], "command": "bin_to_dec"},
+	{"keys": ["super+h","super+d"], "command": "hex_to_dec"}
+]

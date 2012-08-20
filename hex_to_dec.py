@@ -6,8 +6,10 @@ class HexToDecCommand(sublime_plugin.TextCommand):
         v = self.view
 
         hx = v.substr(v.sel()[0])
+        hx = hx.strip()
         hexdig = '0123456789abcdefABCDEF'
         l=True
+        if hx =='': l=False
         for i in hx:
             if not(i in hexdig):
              l=False

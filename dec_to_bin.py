@@ -6,6 +6,7 @@ class DecToBinCommand(sublime_plugin.TextCommand):
         v = self.view
 
         dec = v.substr(v.sel()[0])
+        dec = dec.strip()
 
         if dec.isdigit():
             v.replace(edit, v.sel()[0], bin(int(dec))[2:].upper())

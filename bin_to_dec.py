@@ -7,7 +7,9 @@ class BinToDecCommand(sublime_plugin.TextCommand):
 
         
         bin = v.substr(v.sel()[0])
+        bin = bin.strip()
         l=True
+        if bin == '': l = False
         for i in bin:
             if not((i=='1') or (i=='0')):
              l=False

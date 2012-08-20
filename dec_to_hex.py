@@ -5,9 +5,8 @@ class DecToHexCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         v = self.view
 
-        
         dec = v.substr(v.sel()[0])
-        
+        dec = dec.strip()
         if dec.isdigit():
             v.replace(edit, v.sel()[0], str.strip(hex(int(dec))[2:].upper(),'L'))
         else:

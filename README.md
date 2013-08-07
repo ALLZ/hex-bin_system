@@ -21,3 +21,6 @@ bin->dec  super+B,  super+D
 hex->dec  super+H,  super+D  
 dec->bin  super+D,  super+B  
 dec->hex  super+D,  super+H
+
+## Update ##
+Now it works for multiple selections properly.

@@ -1,6 +1,6 @@
-# Sublime Text 2 hex,bin system Plugin #
+# Sublime Text 2/3 hex,bin system Plugin #
 
-Sublime Text 2 plugin to change numeral system of selected number
+Sublime Text plugin to change numeral system of selected number. Works with ST2 and ST3.
 
 ## Usage ##
 

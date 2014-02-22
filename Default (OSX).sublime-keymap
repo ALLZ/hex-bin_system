@@ -1,8 +1,17 @@
 [
+<<<<<<< HEAD
+    {"keys": ["super+d","super+h"], "command": "dec_to_hex"},
+    {"keys": ["super+d","super+b"], "command": "dec_to_bin"},
+    {"keys": ["super+b","super+d"], "command": "bin_to_dec"},
+    {"keys": ["super+b","super+h"], "command": "bin_to_hex"},
+    {"keys": ["super+h","super+d"], "command": "hex_to_dec"},
+    {"keys": ["super+h","super+b"], "command": "hex_to_bin"}
+=======
 	{"keys": ["super+d","super+h"], "command": "dec_to_hex"},
 	{"keys": ["super+d","super+b"], "command": "dec_to_bin"},
 	{"keys": ["super+b","super+d"], "command": "bin_to_dec"},
   {"keys": ["super+b","super+h"], "command": "bin_to_hex"},
   {"keys": ["super+h","super+d"], "command": "hex_to_dec"},
 	{"keys": ["super+h","super+b"], "command": "hex_to_bin"}
+>>>>>>> 736565c4382dadd2d10eeb9626dae94fe68a70a3
 ]

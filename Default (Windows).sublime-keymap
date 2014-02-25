@@ -1,17 +1,8 @@
 [
-<<<<<<< HEAD
-    {"keys": ["ctrl+d","ctrl+h"], "command": "dec_to_hex"},
-    {"keys": ["ctrl+d","ctrl+b"], "command": "dec_to_bin"},
-    {"keys": ["ctrl+b","ctrl+d"], "command": "bin_to_dec"},
-    {"keys": ["ctrl+b","ctrl+h"], "command": "bin_to_hex"},
-    {"keys": ["ctrl+h","ctrl+d"], "command": "hex_to_dec"},
-    {"keys": ["ctrl+h","ctrl+b"], "command": "hex_to_bin"}
-=======
-	{"keys": ["ctrl+d","ctrl+h"], "command": "dec_to_hex"},
-	{"keys": ["ctrl+d","ctrl+b"], "command": "dec_to_bin"},
-	{"keys": ["ctrl+b","ctrl+d"], "command": "bin_to_dec"},
+  {"keys": ["ctrl+d","ctrl+h"], "command": "dec_to_hex"},
+  {"keys": ["ctrl+d","ctrl+b"], "command": "dec_to_bin"},
+  {"keys": ["ctrl+b","ctrl+d"], "command": "bin_to_dec"},
   {"keys": ["ctrl+b","ctrl+h"], "command": "bin_to_hex"},
   {"keys": ["ctrl+h","ctrl+d"], "command": "hex_to_dec"},
-	{"keys": ["ctrl+h","ctrl+b"], "command": "hex_to_bin"}
->>>>>>> 736565c4382dadd2d10eeb9626dae94fe68a70a3
+  {"keys": ["ctrl+h","ctrl+b"], "command": "hex_to_bin"}
 ]

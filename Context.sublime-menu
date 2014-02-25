@@ -1,18 +1,8 @@
 [
-<<<<<<< HEAD
-    {"command": "dec_to_hex"},
-    {"command": "dec_to_bin"},
-    {"command": "bin_to_dec"},
-    {"command": "bin_to_hex"},
-    {"command": "hex_to_dec"},
-    {"command": "hex_to_bin"}
-=======
-	{"command": "dec_to_hex"},
-	{"command": "dec_to_bin"},
-	{"command": "bin_to_dec"},
+  {"command": "dec_to_hex"},
+  {"command": "dec_to_bin"},
+  {"command": "bin_to_dec"},
   {"command": "bin_to_hex"},
-	{"command": "hex_to_dec"} ,
+  {"command": "hex_to_dec"},
   {"command": "hex_to_bin"}
->>>>>>> 736565c4382dadd2d10eeb9626dae94fe68a70a3
-
 ]

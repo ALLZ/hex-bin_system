@@ -8,13 +8,8 @@ class HexToBinCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         v = self.view
         reglist = list(v.sel())
-<<<<<<< HEAD
         for j in range(0, len(reglist)):
             hx = v.substr(v.sel()[j])
-=======
-        for item in reglist:
-            hx = v.substr(v.sel()[reglist.index(item)])
->>>>>>> 736565c4382dadd2d10eeb9626dae94fe68a70a3
             hx = hx.strip()
             hexdig = '0123456789abcdefABCDEF'
             l = True
@@ -25,11 +20,7 @@ class HexToBinCommand(sublime_plugin.TextCommand):
                     l = False
 
             if l:
-<<<<<<< HEAD
                 v.replace(edit, v.sel()[j], '{0:b}'.format(int(hx, 16)))
-=======
-                v.replace(edit, v.sel()[reglist.index(item)], bin(int(hx, 16))[2:].upper())
->>>>>>> 736565c4382dadd2d10eeb9626dae94fe68a70a3
             else:
                 if len(hx) > self.MAX_STR_LEN:
                     logMsg = hx[0:self.MAX_STR_LEN] + "..."
